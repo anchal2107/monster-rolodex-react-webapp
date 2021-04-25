@@ -35,7 +35,6 @@ class App extends Component {
           handleOnChangle={this.handleOnChangle}
           placeholderValue="search monster"
         ></SearchBox>
-
         <CardList monsters={filterMonster}></CardList>
       </div>
     );
