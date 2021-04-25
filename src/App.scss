@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  .PageTittle{
+    font-family: 'Lobster', cursive;
+    font-size: 72px;
+    color: lightseagreen;
+  }
+
 }
 
 .App-logo {
@@ -36,3 +42,5 @@
     transform: rotate(360deg);
   }
 }
+
+
