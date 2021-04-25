@@ -31,13 +31,10 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="PageTittle">Monster Rolodex</h1>
-      
-        
-          <SearchBox
-            handleOnChangle={this.handleOnChangle}
-            placeholderValue="search monster"
-          ></SearchBox>
-  
+        <SearchBox
+          handleOnChangle={this.handleOnChangle}
+          placeholderValue="search monster"
+        ></SearchBox>
 
         <CardList monsters={filterMonster}></CardList>
       </div>
